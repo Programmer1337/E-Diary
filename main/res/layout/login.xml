@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ffb700"
+    tools:ignore="HardcodedText">
+
+    <EditText
+        android:background="#fffff0"
+        android:layout_width="match_parent"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_height="40dp"
+        android:inputType="textPersonName"
+        android:layout_marginTop="300dp"
+        android:id="@+id/login"
+        android:hint="   Логин"
+
+        />
+
+
+    <EditText
+        android:background="#fffff0"
+        android:layout_width="match_parent"
+        android:layout_alignRight="@id/login"
+        android:layout_alignEnd="@id/login"
+        android:layout_height="40dp"
+        android:inputType="textPersonName"
+        android:id="@+id/pass"
+        android:hint="   поросль"
+        android:layout_below="@+id/login"
+        android:layout_marginTop="20dp"
+        android:layout_alignLeft="@+id/login"
+        android:layout_alignStart="@+id/login" />
+
+    <Button
+        android:id="@+id/butlog"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Войти"
+        android:background="#1e8a8e"
+        android:layout_below="@+id/pass"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginEnd="25dp"
+        android:visibility="visible"
+        />
+
+    <Button
+        android:text="*логотип*"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="45dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="300dp"
+        android:id="@+id/buttonlogotype"
+    />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/butlog"
+        android:layout_alignLeft="@+id/butlog"
+        android:layout_alignStart="@+id/butlog"
+        android:id="@+id/textView"
+        android:layout_alignBottom="@+id/butlog" />
+</RelativeLayout>

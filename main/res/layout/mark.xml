@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+    <TextView
+        android:text="обществознание"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="33dp"
+        android:id="@+id/sosayte"
+
+        />
+
+
+
+    <TextView
+        android:text="1 2 3 4 5 6 7 8 "
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="33dp"
+        android:id="@+id/sosayte_marks"
+        android:visibility="invisible"
+
+    />
+    <TextView
+        android:text="русский"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/sosayte"
+        android:layout_marginTop="5dp"
+        android:id="@+id/ruskiy" />
+    <TextView
+        android:text="ОБЖ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/ruskiy"
+        android:layout_marginTop="5dp"
+        android:id="@+id/obzh" />
+    <TextView
+        android:text="Биология"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/obzh"
+        android:id="@+id/boilogia"
+        android:layout_marginTop="5dp"/>
+
+
+
+    <TextView
+        android:text="Алгебра"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/boilogia"
+        android:id="@+id/algebra"
+        android:layout_marginTop="5dp"/>
+
+
+
+
+
+</RelativeLayout>
